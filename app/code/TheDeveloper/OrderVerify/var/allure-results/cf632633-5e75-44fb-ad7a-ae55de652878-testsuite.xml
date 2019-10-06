@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1570323477855" stop="1570323477877" version="1.4.0">
+  <name>PersonTest</name>
+  <test-cases>
+    <test-case start="1570323477858" stop="1570323477877" status="passed">
+      <name>testValidName</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
