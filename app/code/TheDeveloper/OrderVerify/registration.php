@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE,"OrderVerify",__DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE,"TheDeveloper_OrderVerify",__DIR__);
