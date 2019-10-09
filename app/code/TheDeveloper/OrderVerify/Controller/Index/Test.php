@@ -17,7 +17,6 @@ class Test extends Action{
 
     public function execute()
     {
-        echo "This is the module OrderVerify";
-        exit;
+        return $this->_pageFactory->create();
     }
 }
