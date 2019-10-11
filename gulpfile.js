@@ -15,8 +15,18 @@ function _magentoCommand(command){
 
 const magentoCommand = _magentoCommand;
 
-
 //Cleans Magento Cache
 gulp.task('m-cache', async () => {
     exec(magentoCommand('cache:flush'));
 })
+
+
+gulp.task('m-setup', async () => {
+    exec(magentoCommand('setup:upgrade'))
+})
+
+gulp.task('m-static', async () => {
+    exec(magentoCommand('setup:static-content:deploy -f'))
+})
+
+
