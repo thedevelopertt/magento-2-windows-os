@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1570849655302" stop="1570849655330" version="1.4.0">
+  <name>TheDeveloper\OrderVerify\Test\Unit\SetupTest</name>
+  <test-cases>
+    <test-case start="1570849655305" stop="1570849655329" status="broken">
+      <name>testTheModuleIsKnownAndEnabled</name>
+      <failure>
+        <message>Call to undefined method Magento\Framework\TestFramework\Unit\Helper\ObjectManager::getInstance()</message>
+        <stack-trace>#0 V:\Development-Hard-Links-Folder\magento-core\magento2\vendor\phpunit\phpunit\src\Framework\TestCase.php(894): PHPUnit\Framework\TestResult-&gt;run(Object(TheDeveloper\OrderVerify\Test\Unit\SetupTest))
+#1 V:\Development-Hard-Links-Folder\magento-core\magento2\vendor\phpunit\phpunit\src\Framework\TestSuite.php(755): PHPUnit\Framework\TestCase-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 V:\Development-Hard-Links-Folder\magento-core\magento2\vendor\phpunit\phpunit\src\TextUI\TestRunner.php(545): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#3 V:\Development-Hard-Links-Folder\magento-core\magento2\vendor\phpunit\phpunit\src\TextUI\Command.php(195): PHPUnit\TextUI\TestRunner-&gt;doRun(Object(PHPUnit\Framework\TestSuite), Array, true)
+#4 V:\Development-Hard-Links-Folder\magento-core\magento2\vendor\phpunit\phpunit\src\TextUI\Command.php(148): PHPUnit\TextUI\Command-&gt;run(Array, true)
+#5 V:\Development-Hard-Links-Folder\magento-core\magento2\vendor\phpunit\phpunit\phpunit(53): PHPUnit\TextUI\Command::main()
+#6 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

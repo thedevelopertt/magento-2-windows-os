@@ -1,1 +1,11 @@
 <h1>Hello From Index</h1>
+
+<?php
+    /*
+     * @var |TheDeveloper|OrderVerify|Block|Index $block
+     * */
+?>
+
+<?php foreach ($block->getItems() as $item){ ?>
+    <p><?php echo $item->getPostTitle(); ?></p>
+<?php } ?>

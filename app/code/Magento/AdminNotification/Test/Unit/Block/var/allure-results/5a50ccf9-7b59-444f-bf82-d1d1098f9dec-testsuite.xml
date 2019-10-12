@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1570842072065" stop="1570842072159" version="1.4.0">
+  <name>Magento\AdminNotification\Test\Unit\Block\ToolbarEntryTest</name>
+  <test-cases>
+    <test-case start="1570842072067" stop="1570842072159" status="passed">
+      <name>testGetLatestUnreadNotifications</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

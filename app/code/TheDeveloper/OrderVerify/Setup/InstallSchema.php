@@ -43,7 +43,7 @@ class InstallSchema implements InstallSchemaInterface{
 
             $connection->createTable($table);
         }
-
         $installer->endSetup();
     }
+
 }
