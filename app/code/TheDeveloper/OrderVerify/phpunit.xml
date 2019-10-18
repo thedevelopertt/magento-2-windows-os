@@ -1,7 +1,0 @@
-<phpunit bootstrap="../../../vendor/autoload.php" stopOnFailure="false">
-    <testsuites>
-        <testsuite name="Class Tests">
-            <directory>tests</directory>
-        </testsuite>
-    </testsuites>
-</phpunit>
