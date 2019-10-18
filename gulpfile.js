@@ -28,6 +28,10 @@ gulp.task('m-static', async () => {
     exec(magentoCommand('setup:static-content:deploy -f'))
 })
 
+gulp.task('m-uri', async () => {
+    exec(magentoCommand('dev:urn-catalog:generate .idea/misc.xml'))
+})
+
 //Watch Module
 
 gulp.task('m-watch', async () => {
